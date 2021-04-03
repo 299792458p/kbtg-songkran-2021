@@ -19,7 +19,7 @@ body {
     --cursor-fill: #ffffff;
     --cursor-stroke-width: 1px;
     font-family: 'SukhumvitSet', 'Sukhumvit Set', sans-serif;
-    background: linear-gradient(152deg, #264250 10%, #058aa8 61.07%, #254250 36.05%);
+    background: linear-gradient(180deg, #264250 1%, #058aa8 10.07%, #254250 87.05%);
     margin-top: 7vw;
     margin-bottom: 17vw;
 }
@@ -55,6 +55,19 @@ main {
     position: relative;
 }
 
+.header {
+    position: absolute;
+    top: -7vw;
+    left: -1vw;
+    width: 100vw;
+    height: 4vw;
+    /* background-color: #264252; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw;
+}
+
 .footer {
     position: absolute;
     bottom: -17vw;
@@ -72,9 +85,6 @@ main {
     background-image: url(../images/one-kbtg.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
-    top: -5vw;
-    left: 2vw;
     width: 12vw;
     height: 2vw;
 }
@@ -83,9 +93,6 @@ main {
     background-image: url(../images/KBTG.png);
     background-size: contain;
     background-repeat: no-repeat;
-    position: absolute;
-    top: -5vw;
-    right: -2vw;
     width: 10vw;
     height: 2vw;
 }
@@ -95,10 +102,10 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    top: 0vw;
-    right: 3vw;
-    width: 53vw;
-    height: 49vw;
+    top: -3vw;
+    right: 6vw;
+    width: 54vw;
+    height: 67vw;
     transform: rotate(51deg);
     z-index: -1;
 }
@@ -128,11 +135,11 @@ main {
     background-image: url(../images/hero.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 82vw;
+    width: 44vw;
     height: 21vw;
     transform: rotate(-10deg);
     margin-top: -8vw;
-    margin-left: -1vw;
+    margin-left: 9vw;
 }
 
 .gallery {
@@ -145,7 +152,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4vw 0 0;
+    margin: 2vw 0 0;
     z-index: 3;
 }
 
@@ -489,7 +496,7 @@ main {
     content: "";
     width: 101vw;
     height: 13vw;
-    margin: 0vw -9vw -3vw;
+    margin: 0vw -9vw 0vw;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -523,66 +530,105 @@ main {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    filter: drop-shadow(2px 4px 6px #224a59);
+    /* filter: drop-shadow(2px 4px 6px #224a59); */
     z-index: 0;
 }
 
-.flower:nth-of-type(2) {
-    top: 21vw;
+.mali {
+    position: absolute;
+    width: 5vw;
+    height: 5vw;
+    background-image: url(../images/mali.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* filter: drop-shadow(2px 4px 6px #224a59); */
+    z-index: 0;
+}
+
+.flower:nth-of-type(1) {
+    top: 14vw;
     left: 4vw;
 }
 
-.flower:nth-of-type(3) {
-    top: 32vw;
+.flower:nth-of-type(2) {
+    top: 26vw;
     left: 12vw;
     width: 3vw;
     height: 3vw;
 }
 
-.flower:nth-of-type(4) {
-    top: 36vw;
+.flower:nth-of-type(3) {
+    top: 33vw;
     left: 35vw;
     width: 3vw;
     height: 3vw;
 }
 
-.flower:nth-of-type(5) {
-    top: 17vw;
+.flower:nth-of-type(4) {
+    top: 13vw;
     left: 38vw;
+    display: none;
 }
 
-.flower:nth-of-type(6) {
-    top: 15vw;
+.flower:nth-of-type(5) {
+    top: 12vw;
     left: 61vw;
     width: 3vw;
     height: 3vw;
+    display: none;
+}
+
+.flower:nth-of-type(6) {
+    top: 6vw;
+    left: 80vw;
 }
 
 .flower:nth-of-type(7) {
-    top: 9vw;
-    left: 80vw;
+    top: 26vw;
+    left: 83vw;
+    display: none;
 }
 
 .flower:nth-of-type(8) {
     top: 31vw;
-    left: 85vw;
-}
-
-.flower:nth-of-type(9) {
-    top: 35vw;
     left: 62vw;
 }
 
-.flower:nth-of-type(10) {
+.flower:nth-of-type(9) {
     top: -2vw;
-    left: 73vw;
+    left: 85vw;
+    width: 3vw;
+    height: 3vw;
 }
 
-.flower:nth-of-type(11) {
-    top: 15vw;
+.flower:nth-of-type(10) {
+    top: 11vw;
     left: 92vw;
     width: 3vw;
     height: 3vw;
+}
+
+.mali:nth-of-type(11) {
+    top: 11vw;
+    left: 7vw;
+}
+
+.mali:nth-of-type(12) {
+    top: 30vw;
+    left: 15vw;
+    transform: rotate(45deg);
+}
+
+.mali:nth-of-type(13) {
+    top: 16vw;
+    left: 59vw;
+    transform: rotate(-45deg);
+}
+
+.mali:nth-of-type(14) {
+    top: 33vw;
+    left: 42vw;
 }
 
 .particle {
