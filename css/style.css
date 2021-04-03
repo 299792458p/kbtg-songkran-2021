@@ -496,16 +496,23 @@ main {
     background-image: url(../images/flag-1.png);
 }
 
-.balloons {
+.gun {
     position: absolute;
-    top: 0vw;
-    left: 0vw;
-    width: 4vw;
-    height: 4vw;
-    background-image: url(../images/balloons.png);
+    width: 15vw;
+    height: 15vw;
+    margin-top: -15vw;
+    background-image: url(../images/gun.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.gun.left {
+    transform: scaleX(-1);
+}
+
+.gun.right {
+    right: 0;
 }
 
 .flower {
