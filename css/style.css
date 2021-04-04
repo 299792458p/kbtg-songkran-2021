@@ -299,6 +299,13 @@ main {
     transition-timing-function: ease-out;
 }
 
+.gallery__item-imginner>.greeting.splasher {
+    background-image: url(../images/splash-2.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .gallery__item-imginner>.greeting>.greeting-text {
     padding: 1vw 1.5vw;
     font-size: 1vw;
@@ -316,13 +323,13 @@ main {
     background: inherit;
 }
 
-.gallery__item-img:hover, .gallery__item-img:hover::before, .gallery__item-img:hover::after {
+.ceo .gallery__item-img:hover, .gallery__item-img:hover::before, .gallery__item-img:hover::after {
     border-radius: 3em;
 }
 
-.quote__items .gallery__item-img:hover, .gallery__item-img:hover::before, .gallery__item-img:hover::after {
+/* .quote__items .gallery__item-img:hover, .gallery__item-img:hover::before, .gallery__item-img:hover::after {
     border-radius: 42%;
-}
+} */
 
 .gallery__item-img:hover .greeting {
     bottom: 0;
@@ -486,6 +493,10 @@ main {
     text-decoration: none;
     color: var(--color-text);
     cursor: url(../images/bowl.png) 15 54, auto;
+}
+
+.splasher .greeting-button {
+    margin-bottom: -10vw;
 }
 
 .greeting-button:hover {
