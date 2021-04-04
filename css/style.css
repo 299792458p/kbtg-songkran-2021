@@ -22,6 +22,7 @@ body {
     background: linear-gradient(180deg, #264250 1%, #058aa8 10.07%, #254250 87.05%);
     margin-top: 7vw;
     margin-bottom: 17vw;
+    overflow-x: hidden;
 }
 
 body::before {
@@ -612,6 +613,7 @@ main {
 .mali:nth-of-type(11) {
     top: 11vw;
     left: 7vw;
+    transform: rotate(320deg);
 }
 
 .mali:nth-of-type(12) {
