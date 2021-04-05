@@ -517,13 +517,18 @@ main {
     width: 15vw;
     height: 15vw;
     margin-top: -15vw;
-    /* background-image: url(../images/gun.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.gun.left {}
+.gun.left {
+    background-image: url(../images/bowl-1.PNG);
+    left: -4vw;
+    width: 21vw;
+    height: 21vw;
+    margin-top: -18vw;
+}
 
 .gun.right {
     right: -7vw;
