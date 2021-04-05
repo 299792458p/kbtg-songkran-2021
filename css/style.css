@@ -252,12 +252,10 @@ main {
 
 .gallery__item-imginner.avatar__sen-3 {
     background-image: url(../images/nongrak.JPG);
-    background-size: cover;
 }
 
 .gallery__item-imginner.avatar__sen-4 {
     background-image: url(../images/suchat.JPG);
-    background-size: cover;
 }
 
 .gallery__item-imginner.avatar__sen-5 {
@@ -274,7 +272,6 @@ main {
 
 .gallery__item-imginner.avatar__sen-8 {
     background-image: url(../images/anek.JPG);
-    background-size: 155%;
 }
 
 .gallery__item-imginner.avatar__sen-9 {
