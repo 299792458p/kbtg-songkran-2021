@@ -517,18 +517,18 @@ main {
     width: 15vw;
     height: 15vw;
     margin-top: -15vw;
-    background-image: url(../images/gun.png);
+    /* background-image: url(../images/gun.png); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
-.gun.left {
-    transform: scaleX(-1);
-}
+.gun.left {}
 
 .gun.right {
-    right: 0;
+    right: -7vw;
+    width: 20vw;
+    background-image: url(../images/bowl-2.png);
 }
 
 .flower {
