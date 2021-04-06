@@ -1,3 +1,5 @@
+/* /sites/kbtg/Pages/songkarn/kbtg-songkran-2021 */
+
 @import url(../fonts/index.css);
 body {
     --kbank-green: #01A84E;
@@ -407,14 +409,14 @@ main {
 .gallery__item-quote {
     position: absolute;
     top: 14vw;
-    left: -4vw;
+    left: -3vw;
     background-image: url(../images/quote.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     width: 6vw;
     height: 6vw;
-    opacity: .4;
+    opacity: 1;
     z-index: -1;
 }
 
@@ -441,8 +443,29 @@ main {
 }
 
 .quote__item-text-name {
+    position: relative;
     color: var(--kbtg-green);
     font-size: 1.6vw;
+}
+
+.quote__item-text-name::before {
+    content: "";
+    position: absolute;
+    top: 1vw;
+    right: -1vw;
+    width: 5vw;
+    height: .2vw;
+    background-color: white;
+}
+
+.quote__item-text-name::after {
+    content: "";
+    position: absolute;
+    top: 1vw;
+    right: -1vw;
+    width: .2vw;
+    height: 5vw;
+    background-color: white;
 }
 
 .circle {
