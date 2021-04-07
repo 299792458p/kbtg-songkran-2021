@@ -723,3 +723,49 @@ main {
     top: 32vw;
     left: 40vw;
 }
+
+@media (max-width: 768px) {
+    .quote__items {
+        flex-direction: column;
+    }
+    .quote__item-text {
+        font-size: 2.8vw;
+    }
+    .quote__item-text-name {
+        font-size: 3.4vw;
+    }
+    .quote__item+.quote__item {
+        margin-left: 0;
+    }
+    .ceo-name {
+        font-size: 2vw;
+    }
+    .ceo-name.ple::after, .ceo-name.krating::after {
+        font-size: 1.8vw;
+    }
+    .caption {
+        font-size: 1.8vw;
+    }
+    .gun {
+        display: none;
+    }
+    .quote__item-text-name::before {
+        height: .6vw;
+        width: 8vw;
+        right: -2vw;
+    }
+    .quote__item-text-name::after {
+        width: .6vw;
+        height: 8vw;
+        right: -2vw
+    }
+    .gallery__item {
+        width: 22vw;
+        height: 22vw;
+    }
+    .gallery__item-quote {
+        top: 17vw;
+        width: 7vw;
+        height: 7vw;
+    }
+}
