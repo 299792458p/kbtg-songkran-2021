@@ -323,7 +323,7 @@ main {
 }
 
 .ceo .gallery__item-img:hover, .gallery__item-img:hover::before, .gallery__item-img:hover::after {
-    border-radius: 3em;
+    border-radius: 3vw;
 }
 
 /* .quote__items .gallery__item-img:hover, .gallery__item-img:hover::before, .gallery__item-img:hover::after {
@@ -519,10 +519,10 @@ main {
     margin-bottom: -10vw;
 }
 
-.greeting-button:hover {
+/* .greeting-button:hover {
     background-color: var(--color-link);
     color: var(--color-text);
-}
+} */
 
 .flags {
     content: "";
