@@ -1,6 +1,6 @@
 /* /sites/kbtg/Pages/songkarn/kbtg-songkran-2021 */
 
-@import url(../fonts/index.css);
+@import url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/fonts/index.css);
 body {
     --kbank-green: #01A84E;
     --kbank-gray: #757575;
@@ -86,11 +86,11 @@ main {
     background-size: 79%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../images/flag-1.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/flag-1.png);
 }
 
 .one-kbtg {
-    background-image: url(../images/one-kbtg.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/one-kbtg.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 12vw;
@@ -98,7 +98,7 @@ main {
 }
 
 .logo {
-    background-image: url(../images/KBTG.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/KBTG.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 10vw;
@@ -106,7 +106,7 @@ main {
 }
 
 .splash {
-    background-image: url(../images/splash.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/splash.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -119,7 +119,7 @@ main {
 }
 
 /* .splash-2 {
-    background-image: url(../images/splash-2.PNG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/splash-2.PNG);
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
@@ -140,7 +140,7 @@ main {
 }
 
 .hero {
-    background-image: url(../images/hero.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/hero.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 44vw;
@@ -250,57 +250,57 @@ main {
     height: calc(100% + 4px);
     background-position: 50% 0%;
     background-repeat: no-repeat;
-    cursor: url(../images/bowl.cur) 15 54, auto;
-    cursor: url(../images/bowl.png) 15 54, auto;
+    cursor: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/bowl.cur) 15 54, auto;
+    cursor: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/bowl.png) 15 54, auto;
     z-index: 0;
 }
 
 .gallery__item-imginner.avatar__ceo-1 {
-    background-image: url(../images/ple.jpg);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/ple.jpg);
 }
 
 .gallery__item-imginner.avatar__ceo-2 {
-    background-image: url(../images/krating.jpg);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/krating.jpg);
 }
 
 .gallery__item-imginner.avatar__ceo-3 {
-    background-image: url(../images/pairash.jpg);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/pairash.jpg);
 }
 
 .gallery__item-imginner.avatar__sen-1 {
-    background-image: url(../images/nipat.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/nipat.JPG);
 }
 
 .gallery__item-imginner.avatar__sen-2 {
-    background-image: url(../images/chatri.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/chatri.JPG);
 }
 
 .gallery__item-imginner.avatar__sen-3 {
-    background-image: url(../images/nongrak.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/nongrak.JPG);
 }
 
 .gallery__item-imginner.avatar__sen-4 {
-    background-image: url(../images/suchat.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/suchat.JPG);
 }
 
 .gallery__item-imginner.avatar__sen-5 {
-    background-image: url(../images/viroj.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/viroj.JPG);
 }
 
 .gallery__item-imginner.avatar__sen-6 {
-    background-image: url(../images/veerasak.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/veerasak.JPG);
 }
 
 .gallery__item-imginner.avatar__sen-7 {
-    background-image: url(../images/thanaruek.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/thanaruek.JPG);
 }
 
 .gallery__item-imginner.avatar__sen-8 {
-    background-image: url(../images/anek.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/anek.JPG);
 }
 
 .gallery__item-imginner.avatar__sen-9 {
-    background-image: url(../images/peerapong.JPG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/peerapong.JPG);
 }
 
 .gallery__item-imginner>.greeting {
@@ -327,7 +327,7 @@ main {
 }
 
 .gallery__item-imginner>.greeting.splasher {
-    background-image: url(../images/splash-2.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/splash-2.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -465,7 +465,7 @@ main {
     position: absolute;
     top: 14vw;
     left: -3vw;
-    background-image: url(../images/quote.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/quote.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -602,7 +602,7 @@ main {
     text-decoration: none;
     color: #fff;
     color: var(--color-text);
-    cursor: url(../images/bowl.png) 15 54, auto;
+    cursor: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/bowl.png) 15 54, auto;
 }
 
 .splasher .greeting-button {
@@ -616,7 +616,7 @@ main {
     background-size: 79%;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(../images/flag-1.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/flag-1.png);
 }
 
 .gun {
@@ -630,7 +630,7 @@ main {
 }
 
 .gun.left {
-    background-image: url(../images/bowl-1.PNG);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/bowl-1.PNG);
     left: -4vw;
     width: 21vw;
     height: 21vw;
@@ -640,7 +640,7 @@ main {
 .gun.right {
     right: -7vw;
     width: 20vw;
-    background-image: url(../images/bowl-2.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/bowl-2.png);
 }
 
 .ceo-name {
@@ -686,7 +686,7 @@ main {
     position: absolute;
     width: 5vw;
     height: 5vw;
-    background-image: url(../images/flower.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/flower.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -698,7 +698,7 @@ main {
     position: absolute;
     width: 5vw;
     height: 5vw;
-    background-image: url(../images/mali.png);
+    background-image: url(/sites/kbtg/Pages/songkarn/kbtg-songkran-2021/images/mali.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
