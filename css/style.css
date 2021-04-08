@@ -37,6 +37,7 @@ body::before {
     position: absolute;
     top: 0;
     left: 0;
+    right: 0;
     width: 100vw;
     height: 56vw;
     z-index: -3;
@@ -179,6 +180,8 @@ main {
     position: relative;
     width: 18vw;
     height: 18vw;
+    flex-shrink: 0;
+    flex-grow: 0;
     will-change: transform;
 }
 
@@ -247,6 +250,7 @@ main {
     height: calc(100% + 4px);
     background-position: 50% 0%;
     background-repeat: no-repeat;
+    cursor: url(../images/bowl.cur) 15 54, auto;
     cursor: url(../images/bowl.png) 15 54, auto;
     z-index: 0;
 }
@@ -336,6 +340,7 @@ main {
     /* text-align: justify; */
     color: #fff;
     color: var(--color-text);
+    width: calc(100% - 3vw);
 }
 
 .gallery__item-imginner .frost {
@@ -475,6 +480,11 @@ main {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .quote__item+.quote__item {
@@ -490,6 +500,11 @@ main {
     -ms-flex-direction: column;
     flex-direction: column;
     margin: 1vw 0;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
 }
 
 .quote__item-text {
@@ -794,6 +809,7 @@ main {
     }
     .ceo-name {
         font-size: 2vw;
+        bottom: -6vw;
     }
     .ceo-name.ple::after, .ceo-name.krating::after {
         font-size: 1.8vw;
