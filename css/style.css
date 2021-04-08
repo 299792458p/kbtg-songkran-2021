@@ -768,4 +768,7 @@ main {
         width: 7vw;
         height: 7vw;
     }
+    .gallery__item-imginner>.greeting>.greeting-text {
+        font-size: 1.4vw;
+    }
 }
