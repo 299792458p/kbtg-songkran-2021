@@ -187,8 +187,14 @@ main {
     transition-property: all;
     transition-duration: 300ms;
     transition-timing-function: ease-out;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-timing-function: ease-out;
     box-shadow: 2px 2px 14px 0px #224a59;
     will-change: border-radius, bottom;
+    touch-action: none;
+    -ms-touch-action: none;
+    z-index: 1;
 }
 
 .gallery__item-img::before {
@@ -228,7 +234,7 @@ main {
     background-position: 50% 0%;
     background-repeat: no-repeat;
     cursor: url(../images/bowl.png) 15 54, auto;
-    will-change: transform;
+    z-index: 0;
 }
 
 .gallery__item-imginner.avatar__ceo-1 {
