@@ -188,7 +188,7 @@ main {
     transition-duration: 300ms;
     transition-timing-function: ease-out;
     box-shadow: 2px 2px 14px 0px #224a59;
-    will-change: transform;
+    will-change: border-radius, bottom;
 }
 
 .gallery__item-img::before {
@@ -319,19 +319,15 @@ main {
     top: -2em;
     left: -2em;
     background: inherit;
+    will-change: filter, background-color;
 }
 
 .ceo .gallery__item-img:hover, .gallery__item-img:hover::before, .gallery__item-img:hover::after {
     border-radius: 3vw;
 }
 
-/* .quote__items .gallery__item-img:hover, .gallery__item-img:hover::before, .gallery__item-img:hover::after {
-    border-radius: 42%;
-} */
-
 .gallery__item-img:hover .greeting {
     bottom: 0;
-    /* transition-delay: 200ms; */
 }
 
 .ceo .greeting {
@@ -391,6 +387,7 @@ main {
     align-items: center;
     cursor: pointer;
     z-index: -1;
+    will-change: background;
 }
 
 .gallery__item-link:focus, .gallery__item-link:hover {
@@ -534,11 +531,6 @@ main {
 .splasher .greeting-button {
     margin-bottom: -10vw;
 }
-
-/* .greeting-button:hover {
-    background-color: var(--color-link);
-    color: var(--color-text);
-} */
 
 .flags {
     width: 101vw;
